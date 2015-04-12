@@ -2,6 +2,16 @@
 
 This repository contains sample [IPython](http://ipython.org) / [Jupyter](http://jupyter.org/) notebooks ranging from tutorials on using popular open source repositories to sample analyses on public data sets to neat notebook hacks.
 
+* [Exploration of Airline On-Time Performance](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/airline/Exploration%20of%20Airline%20On-Time%20Performance.ipynb)
+* [Historical Daily Temperature Analysis](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/noaa/hdta/etl/noaa_hdta_etl.ipynb)
+* [Instaquery](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/hacks/instaquery.ipynb)
+* [Interactive Data Maps](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/tax-maps/Interactive%20Data%20Maps.ipynb)
+* [IPy Parallel and R](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/hacks/IPython%20Parallel%20and%20R.ipynb)
+* [MLB Modern Era Salaries](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/mlb/mlb-salaries.ipynb)
+* [Population Growth Estimates](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/united-nations/world-population/senegal_population_trends.ipynb)
+* [scikit-learn Recipies](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/scikit-learn/sklearn_cookbook.ipynb)
+* [Web Server in a Notebook](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/hacks/Webserver%20in%20a%20Notebook.ipynb)
+
 ## License
 
 Notebooks are copyright (c) 2015 IBM Corporation under the MIT license. See LICENSE for details. 
