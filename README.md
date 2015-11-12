@@ -12,6 +12,7 @@ This repository contains sample [IPython](http://ipython.org) / [Jupyter](http:/
 * [Population Growth Estimates](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/united-nations/world-population/senegal_population_trends.ipynb)
 * [scikit-learn Recipies](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/scikit-learn/sklearn_cookbook.ipynb)
 * [Web Server in a Notebook](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/hacks/Webserver%20in%20a%20Notebook.ipynb)
+* [Using Notebooks, Spark, and IBM Cloudant on IBM Bluemix](https://github.com/ibm-et/jupyter-samples/blob/master/bluemix-spark-cloudant/README.md)
 
 ## License
 
