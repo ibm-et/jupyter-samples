@@ -10,7 +10,7 @@ You can view the notebooks here on GitHub. See the [index](index.ipynb) for the 
 
 ## Try the Notebooks
 
-You can run these notebooks yourself in a [Binder](https://github.com/binder-project). Click the *Launch Binder* badge above to get your own Jupyter Notebook server with all the prereqs installed.
+You can run these notebooks yourself in a [Binder](https://mybinder.org). Click the *Launch Binder* badge above to get your own Jupyter Notebook server with all the prereqs installed.
 
 ## License
 
