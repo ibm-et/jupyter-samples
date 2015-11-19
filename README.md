@@ -1,5 +1,7 @@
 # Jupyter Samples
 
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/ibm-et/jupyter-samples)
+
 This repository contains sample [IPython](http://ipython.org) / [Jupyter](http://jupyter.org/) notebooks ranging from tutorials on using popular open source repositories to sample analyses on public data sets to neat notebook hacks.
 
 * [Exploration of Airline On-Time Performance](http://nbviewer.ipython.org/github/knowledgeanyhow/notebooks/blob/master/airline/Exploration%20of%20Airline%20On-Time%20Performance.ipynb)
