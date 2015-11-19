@@ -1,0 +1,20 @@
+<dom-module id="urth-raw-html">
+    <template>
+        <div id="output_area"></div>
+    </template>
+    <script>
+    Polymer({
+        properties: {
+            html: {
+                type: String,
+                value: '',
+                observer: '_htmlChanged'
+            }
+        },
+        
+        _htmlChanged: function(newVal, oldVal) {
+            this.$.output_area.innerHTML = newVal;
+        }
+    });
+    </script>
+</dom-module>
