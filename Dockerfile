@@ -8,5 +8,5 @@ RUN curl -sL https://deb.nodesource.com/setup_0.12 | bash - && \
 
 USER main
 
-COPY requirements.txt /tmp/requirements.txt
-RUN cd /tmp && pip install -r requirements.txt
+RUN pip install -r requirements.txt
+RUN source activate python3 && pip install -r requirements.txt
