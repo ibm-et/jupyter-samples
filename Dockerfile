@@ -11,5 +11,5 @@ USER main
 COPY requirements.txt /tmp/requirements.txt
 RUN cd /tmp && \
     pip install -r requirements.txt && \
-    source activate python3 && \
+    . activate python3 && \
     pip install -r requirements.txt
