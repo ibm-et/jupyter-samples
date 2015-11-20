@@ -34,16 +34,13 @@ This notebook was developed using a **March 16, 2015** snapshot of USA-Only dail
 
 ## Usage
 
-### Prepare Data
+### Data Preparation Options
 
-Use the [data Munging](https://github.com/ibm-et/jupyter-samples/tree/master/noaa/etl) project to generate CSV files or use the sample **March 16, 2015** snapshot provided in this repo.
-
-### Deploy Data
-
+1. Use the [NOAA data Munging](https://github.com/ibm-et/jupyter-samples/tree/master/noaa/etl) project to generate CSV files for the latest NOAA data.
+2. Use the sample **March 16, 2015** snapshot provided in this repo. Open a terminal session and run these commands:
 ```
-$ cd data
+$ cd /home/main/notebooks/noaa/hdtadash/data/
 $ tar -xvf station_summaries.tar
-
 ```
 
 ### Run Dashboard
