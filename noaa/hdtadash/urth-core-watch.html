@@ -15,7 +15,12 @@
             for (var i = 0, iLen = this.childNodes.length; i < iLen; i++) {
                 if (this.childNodes[i].invoke) {
                     console.log("urth-core-watch: Invoking element ",this.childNodes[i]);
-                    this.childNodes[i].invoke();
+                    try{
+                        this.childNodes[i].invoke();
+                    }
+                    catch(e){
+                        console.log("urth-core-watch: Error invoking"); 
+                    }
                 }
             }
         }
