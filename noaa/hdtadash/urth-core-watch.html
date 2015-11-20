@@ -1,0 +1,24 @@
+<dom-module id="urth-core-watch">
+    <template>
+        <content select="urth-core-function"></content>
+    </template>
+    <script>
+    Polymer({
+        properties: {
+            value: {
+                observer: '_valueChanged'
+            }
+        },
+        
+        _valueChanged: function(newVal, oldVal) {
+            console.log("urth-core-watch: valueChanged");
+            for (var i = 0, iLen = this.childNodes.length; i < iLen; i++) {
+                if (this.childNodes[i].invoke) {
+                    console.log("urth-core-watch: Invoking element ",this.childNodes[i]);
+                    this.childNodes[i].invoke();
+                }
+            }
+        }
+    });
+    </script>
+</dom-module>
