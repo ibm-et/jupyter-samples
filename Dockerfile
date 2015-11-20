@@ -2,7 +2,7 @@ FROM andrewosh/binder-base
 
 USER root
 
-RUN curl -sL https://deb.nodesource.com/setup | sudo bash - && \
+RUN curl -sL https://deb.nodesource.com/setup | bash - && \
     apt-get install -y nodejs && \
     npm install -g bower
 
