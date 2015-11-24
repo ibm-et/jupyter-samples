@@ -2,11 +2,8 @@
 
 >STATUS NOTES:
 >
-1. Work in progress
-2. Code works when executed in notebook view manually evaluating cells after each user interaction.
-3. Eventing for dashboarding view not work.
-4. Map does not render even though code works using test notebook folium.ipynb
-5. Further development should use ```dev_weather_dashboard.ipynb``` as base.
+1. Used ```urth-core-watch patch``` and a few hacks.
+2. ToDo: revisit code after v0.1.1 is release of ```urth`` components.
 
 This analytical notebook is a component of a [package of notebooks](https://github.com/ibm-et/jupyter-samples/tree/master/noaa). The package is intended to serve as an exercise in the applicability of Juypter Notebooks to public weather data for DIY Analytics.
 
@@ -51,6 +48,6 @@ $ tar -xvf station_summaries.tar
 
 ## Citation Information
 
-* [GHCN-Daily journal article](doi:10.1175/JTECH-D-11-00103.1): Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012:  An overview of the Global Historical Climatology Network-Daily Database.  Journal of Atmospheric and Oceanic Technology, 29, 897-910.
+* [GHCN-Daily journal article](http://doi:10.1175/JTECH-D-11-00103.1): Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012:  An overview of the Global Historical Climatology Network-Daily Database.  Journal of Atmospheric and Oceanic Technology, 29, 897-910.
 * Menne, M.J., I. Durre, B. Korzeniewski, S. McNeal, K. Thomas, X. Yin, S. Anthony, R. Ray, R.S. Vose, B.E.Gleason, and T.G. Houston, 2012: [Global Historical Climatology Network - Daily (GHCN-Daily)](http://doi.org/10.7289/V5D21VHZ), [Version 3.20-upd-2015031605], NOAA National Climatic Data Center [March 16, 2015].
 
